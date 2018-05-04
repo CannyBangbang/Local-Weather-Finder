@@ -1,0 +1,49 @@
+body {
+  background-image: url("https://images2.imgbox.com/d9/75/EIl27ijg_o.png");
+    background-repeat: repeat;
+}
+.icon-source {
+  text-align: center;
+  position: fixed; 
+  bottom: 0;
+  width: 100%;
+}
+#main-box {
+  width: 40%;
+  heigth: 30%;
+  background: white;
+  margin: 150px auto 0px auto;
+  padding: 2% 5% 2% 5%;
+  text-align: center;
+  border-radius: 5px;
+  border: black;
+  border-width: 3px;
+  border-style: solid;
+}
+#Local-Weather {
+  font-size: 60px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+#city-country {
+  font-size: 50px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+#temp-CelOrFar {
+  font-size: 40px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+#weather {
+  font-size: 40px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+#icon-switch {
+   max-width: 200px;
+}
+#celOrFah {
+   color: #1e6888;
+}
+
