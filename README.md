@@ -7,3 +7,4 @@ This project is licensed under the Apache License - see the LICENSE file for det
 ## Acknowledgments
 * FreeCodeCamp - Provided challange, lessons, and inspiration - FreeCodeCamp.com
 * Open Weather Map - Used their API pass through FCC(https://fcc-weather-api.glitch.me/) - https://openweathermap.org/
+* Flat Icon - Provided icons - flaticon.com
