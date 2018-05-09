@@ -2,6 +2,90 @@ body {
   background-image: url("https://images2.imgbox.com/d9/75/EIl27ijg_o.png");
     background-repeat: repeat;
 }
+@media screen and (max-width: 767px) {
+  #main-box {
+    width: 90%;
+    margin: 8vh auto 0px auto;
+  }
+  #Local-Weather {
+    font-size: 4em;
+  }
+  #city-country {
+    font-size: 3.2em;
+  }
+  #temp-CelOrFar {
+    font-size: 3em;
+  }
+  #weather {
+    font-size: 3em;
+  }
+  #icon-switch {
+    max-width: 180px;
+ }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #main-box {
+    width: 80%;
+    margin: 10vh auto 0px auto;
+  }
+  #Local-Weather {
+    font-size: 4em;
+  }
+  #city-country {
+    font-size: 3.2em;
+  }
+  #temp-CelOrFar {
+    font-size: 3em;
+  }
+  #weather {
+    font-size: 3em;
+  }
+  #icon-switch {
+    max-width: 180px;
+ }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #main-box {
+    width: 70%;
+    margin: 150px auto 0px auto;
+  }
+  #Local-Weather {
+    font-size: 4em;
+  }
+  #city-country {
+    font-size: 3.2em;
+  }
+  #temp-CelOrFar {
+    font-size: 2.7em;
+  }
+  #weather {
+    font-size: 2.7em;
+  }
+  #icon-switch {
+    max-width: 200px;
+ }
+}
+@media screen and (min-width: 1200px) {
+  #main-box {
+    width: 50%;
+    margin: 150px auto 0px auto;
+  }
+  #Local-Weather {
+    font-size: 5em;
+  }
+  #city-country {
+    font-size: 4em;
+  }
+  #temp-CelOrFar {
+    font-size: 3em;
+  }
+  #weather {
+    font-size: 3em;
+  }
+  #icon-switch {
+    max-width: 230px;
+ }
+}
 .icon-source {
   text-align: center;
   position: fixed; 
@@ -9,10 +93,7 @@ body {
   width: 100%;
 }
 #main-box {
-  width: 40%;
-  heigth: 30%;
   background: white;
-  margin: 150px auto 0px auto;
   padding: 2% 5% 2% 5%;
   text-align: center;
   border-radius: 5px;
@@ -20,28 +101,9 @@ body {
   border-width: 3px;
   border-style: solid;
 }
-#Local-Weather {
-  font-size: 60px;
+#Local-Weather, #city-country, #temp-CelOrFar, #weather {
   font-family: Helvetica;
   font-weight: bold;
-}
-#city-country {
-  font-size: 50px;
-  font-family: Helvetica;
-  font-weight: bold;
-}
-#temp-CelOrFar {
-  font-size: 40px;
-  font-family: Helvetica;
-  font-weight: bold;
-}
-#weather {
-  font-size: 40px;
-  font-family: Helvetica;
-  font-weight: bold;
-}
-#icon-switch {
-   max-width: 200px;
 }
 #celOrFah {
    color: #1e6888;
